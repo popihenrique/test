@@ -1,0 +1,17 @@
+{
+    "name": "VM",
+    "short_name": "VM",
+    "theme_color": "#ffffff",
+    "display": "standalone",
+    "background_color": "#fefefe",
+    "start_url": "/",
+    "scope": "/",
+    "description": "The app for define your VM",
+    "icons": [
+        {
+            "src": "images/icons/icon.png",
+            "sizes": "306x165",
+            "type": "image/png"
+        }       
+    ]
+}

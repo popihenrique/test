@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="apple-touch-icon" href="images/icons/icon.png" />
+    <link rel="icon" href="images/icons/icon.png" />
+    <link rel="manifest" href="app.webmanifest" />
+    <script src="./app.js" type="module" defer></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VM</title>
+  </head>
+  <body>
+    <form action="/vm-setup" method="get">
+      <label for="ram">Ram:</label>
+      <select name="ram" id="ram"></select>
+      <label for="cores">vCPU cores:</label>
+      <select name="cores" id="cores"></select>
+
+      <label>OS:</label>
+      <input type="radio" id="linux" name="os" value="linux" checked />
+      <label for="linux">Linux</label>
+      <input type="radio" id="windows" name="os" value="windows" />
+      <label for="windows">Windows</label>
+      <input type="submit" />
+    </form>
+  </body>
+</html>
